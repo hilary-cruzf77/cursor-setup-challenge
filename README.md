@@ -1,19 +1,19 @@
-# Setup de Cursor IDE y Extensiones
+# Cursor IDE and Extensions Setup
 
-## Herramientas Instaladas
-* **Cursor IDE**: Versión básica y gratuita.
-* **Claude Code**: Extensión oficial de asistencia de código.
-* **Codex**: Extensión complementaria para desarrollo.
+## Installed Tools
+* **Cursor IDE**: Basic free version.
+* **Claude Code**: Official code assistance extension.
+* **Codex**: Complementary development extension.
 
-## Pasos Completados
-1. Descarga e instalación de Cursor IDE.
-2. Configuración de las extensiones Claude Code y Codex en el panel correspondiente.
-3. Instalación y configuración de Git en el sistema operativo local.
-4. Creación del repositorio público en GitHub y clonación local.
-5. Redacción de la documentación técnica en el archivo README.
+## Completed Steps
+1. Downloaded and installed Cursor IDE.
+2. Configured Claude Code and Codex extensions in the corresponding panel.
+3. Installed and configured Git on the local operating system.
+4. Created a public repository on GitHub and cloned it locally.
+5. Documented the technical setup process in the README file.
 
-## Problemas Encontrados y Soluciones
-* **Problema 1:** Cursor se inició inicialmente en la interfaz de Multi-Agent Space (Hub), bloqueando la vista clásica del editor y el acceso directo al panel de extensiones.
-  * **Solución:** Se forzó el inicio del editor clásico cerrando la app y ejecutando el comando `cursor .` desde la consola de comandos de la computadora.
-* **Problema 2:** La terminal integrada de Cursor no reconocía los comandos de `git` debido a que el software no estaba instalado en el sistema operativo.
-  * **Solución:** Se descargó e instaló Git para Windows desde el sitio oficial, integrándolo correctamente tras reiniciar el IDE.
+## Troubleshooting and Solutions
+* **Issue 1:** Cursor initially launched into the Multi-Agent Space (Hub) interface, blocking the classic editor view and direct access to the extensions panel.
+  * **Solution:** Forced the classic editor to launch by closing the app and executing the `cursor .` command directly from the command prompt.
+* **Issue 2:** The integrated terminal in Cursor did not recognize `git` commands because the software was not installed on the operating system.
+  * **Solution:** Downloaded and installed Git for Windows from the official website, resolving the issue after restarting the IDE.
